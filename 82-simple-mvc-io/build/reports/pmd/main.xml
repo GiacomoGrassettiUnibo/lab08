@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.51.0" timestamp="2022-11-15T16:06:51.162">
+<file name="H:\Documents\Unibo\oop\lab08\82-simple-mvc-io\src\main\java\it\unibo\mvc\Controller.java">
+<violation beginline="21" endline="21" begincolumn="32" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="Controller" method="setCurrentFile" variable="file" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="it.unibo.mvc" class="Controller" method="writeOnFile" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="H:\Documents\Unibo\oop\lab08\82-simple-mvc-io\src\main\java\it\unibo\mvc\SimpleGUI.java">
+<violation beginline="16" endline="16" begincolumn="19" endcolumn="31" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="SimpleGUI" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'panel' could be replaced by a local variable.
+</violation>
+<violation beginline="17" endline="17" begincolumn="19" endcolumn="33" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="SimpleGUI" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'button' could be replaced by a local variable.
+</violation>
+<violation beginline="18" endline="18" begincolumn="24" endcolumn="33" rule="ImmutableField" ruleset="Design" package="it.unibo.mvc" class="SimpleGUI" variable="controller" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'controller' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="21" endline="21" begincolumn="22" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUI" method="SimpleGUI" variable="ctrllr" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ctrllr' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="30" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUI" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUI" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'controller' could be declared final
+</violation>
+</file>
+<file name="H:\Documents\Unibo\oop\lab08\82-simple-mvc-io\src\main\java\it\unibo\mvc\SimpleGUIWithFileChooser.java">
+<violation beginline="14" endline="14" begincolumn="24" endcolumn="33" rule="ImmutableField" ruleset="Design" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" variable="controller" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'controller' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="16" endline="16" begincolumn="19" endcolumn="31" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'panel' could be replaced by a local variable.
+</violation>
+<violation beginline="17" endline="17" begincolumn="19" endcolumn="34" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'panelTop' could be replaced by a local variable.
+</violation>
+<violation beginline="18" endline="18" begincolumn="19" endcolumn="37" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'buttonSave' could be replaced by a local variable.
+</violation>
+<violation beginline="19" endline="19" begincolumn="19" endcolumn="39" rule="SingularField" ruleset="Design" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_design.html#singularfield" priority="3">
+Perhaps 'buttonBrowse' could be replaced by a local variable.
+</violation>
+<violation beginline="23" endline="23" begincolumn="37" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" method="SimpleGUIWithFileChooser" variable="ctrllr" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ctrllr' is not assigned and could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="41" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" method="actionPerformed" variable="event" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'event' is not assigned and could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="17" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" method="actionPerformed" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'fileChooser' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" method="actionPerformed" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'status' could be declared final
+</violation>
+<violation beginline="86" endline="86" begincolumn="29" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="87" endline="87" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.mvc" class="SimpleGUIWithFileChooser" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.51.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'controller' could be declared final
+</violation>
+</file>
+</pmd>
