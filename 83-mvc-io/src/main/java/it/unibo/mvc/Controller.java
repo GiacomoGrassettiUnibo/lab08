@@ -29,5 +29,5 @@ public interface Controller {
      * 
      * @throws IllegalStateException
      */
-    public String printCurrentString() throws IllegalStateException;
+    public void printCurrentString(String s) throws IllegalStateException;
 }

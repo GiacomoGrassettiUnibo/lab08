@@ -21,6 +21,7 @@ public final class SimpleController implements Controller {
 
     @Override
     public void setNextStringToPrint(String string) {
+        this.currentString = this.nextString;
         this.nextString = string;
     }
 
@@ -41,12 +42,13 @@ public final class SimpleController implements Controller {
     }
 
     @Override
-    public String printCurrentString() throws IllegalStateException {
-        if (currentString == null) {
-            throw new IllegalStateException("La stringa è vuota");
+    public void printCurrentString(String s) throws IllegalStateException {
+        this.currentString = s;
+        if (currentString == null || currentString.isEmpty()) {
+            throw new IllegalStateException("La stringa e' vuota");
         }
         this.addStringOnHistory(currentString);
-        return currentString;
+        System.out.println(currentString);
     }
 
 }
